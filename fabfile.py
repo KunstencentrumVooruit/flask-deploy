@@ -122,6 +122,7 @@ def create():
         local('cp ../flask-deploy/template.py app.py')
         local('cp ../flask-deploy/config/.gitignore .')
         local('chmod 775 app.py')
+        local('mkdir static')
             
 
 def deploy():
