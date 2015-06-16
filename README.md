@@ -23,6 +23,14 @@ Browser: http://localhost:5003/apiv1/sensoren
 
 # ISSUES
 
-## VIRTUALENV en Cryptography (nodig voor oauth)
+#### VIRTUALENV en Cryptography (nodig voor oauth)
 
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+#### dependencies voor gspread
+
+```
+bin/pip install cryptography
+bin/pip install oauth2client
+bin/pip install PyOpenSSL
+```
